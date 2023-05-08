@@ -1,0 +1,196 @@
+.infox {
+  margin-top: 5em;
+}
+
+.gambar img {
+  display: none;
+}
+
+.kotak-info {
+  margin-bottom: 10px;
+}
+
+.infonow h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.thx-panitia {
+  margin-top: 4em;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  color: darkseagreen;
+  padding-top: 2em;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 1em;
+}
+
+.tombol {
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.info-daftar span {
+  color: darkblue;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    z-index: 2;
+    position: relative;
+  }
+
+  .navbar .nav-link {
+    margin-right: 3px;
+  }
+
+  #navbarNavDropdown ul li a {
+    color: #071C4D;
+    font-weight: 600;
+  }
+
+  .nav-hover:hover::after,
+  .nav-hover.active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid orangered;
+    margin: auto;
+    margin-bottom: -8px;
+    width: 50%;
+    padding-top: 5px;
+  }
+
+  .d-flex .btn-success {
+    margin-left: 1em;
+  }
+
+  .btn-success:hover {
+    color: darkturquoise;
+    border: 1px solid darkslateblue;
+    background-color: transparent;
+  }
+
+  .hero {
+    margin-top: 2em;
+  }
+
+  .hero h2 {
+    font-weight: bold;
+    font-size: 2.18rem;
+    color: #7064BA;
+    white-space: nowrap;
+    line-height: 1;
+  }
+
+  .hero h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #E73B79;
+    white-space: nowrap;
+    line-height: 1;
+  }
+
+  .hero p {
+    margin-top: 1.8em;
+    color: #7B888D;
+    font-size: 1.1rem;
+  }
+
+  .hero a {
+    margin-top: 1.8em;
+    border: 1px solid transparent;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    font-weight: bold;
+  }
+
+  .hero a:hover {
+    color: darkturquoise;
+    border: 1px solid darkslateblue;
+    background-color: transparent;
+  }
+
+  .hero .gambar img {
+    background-position-x: top right;
+    display: inline-block;
+    margin-top: -130px;
+    margin-right: -120px;
+    max-height: 650px;
+    position: absolute;
+  }
+
+  .hero .infox {
+    z-index: 1;
+  }
+
+  .img-fluid{
+      z-index: -1;
+    }
+
+  .link-reg {
+    margin-top: 180px;
+  }
+
+  .kotak-info h5 {
+    font-size: 1.5em;
+  }
+
+  .kotak-info img {
+    max-height: 210px !important;
+  }
+
+  .kotak-info .card {
+    z-index: 1;
+  }
+
+  .infonow {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+
+
+  .card-content {
+    min-height: 335px !important;
+  }
+
+  .card-content img {
+    min-height: 210px !important;
+  }
+
+  .card-content h5 {
+    font-size: 17px;
+  }
+
+  .card-content .btn-success {
+    margin: 8px 0;
+  }
+
+  .thx-panitia {
+    margin-top: 4em;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+    color: darkseagreen;
+    padding-top: 2em;
+    border-radius: 12px;
+  }
+
+  .thx-panitia .text-right {
+    color: darkslategrey;
+  }
+
+  .footer-bawah {
+    margin-top: 50px;
+    background-color: azure;
+    padding-top: 10px;
+  }
+
+  .modal-body {
+    text-decoration: none;
+  }
+}

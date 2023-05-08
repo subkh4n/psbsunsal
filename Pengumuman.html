@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="frontend/styles/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <title>PSB SUNNIYAH SALAFIYAH</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <!-- logo navbar -->
+  <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+      <a href="#" class="navbar-brand">
+        <img src="frontend/images/sunsal.png" alt="logo sunsal">
+      </a>
+      <!-- button toggler mobile -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- list navbar -->
+      <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a href="index.html" class="nav-link active ">Beranda</a>
+          </li>
+          <!-- list navbar dropdown -->
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Profile
+              Lembaga</a>
+            <div class="dropdown-menu">
+              <a href="athfal.html" class="dropdown-item">Pondok Athfal</a>
+              <a href="pondokputra.html" class="dropdown-item">Pondok Putra</a>
+              <a href="pondokputri.html" class="dropdown-item">Pondok Putri Az-zahra</a>
+              <a href="smputra.html" class="dropdown-item">SMP Putra Al-azhar</a>
+              <a href="smaputra.html" class="dropdown-item">SMA Putra Al-azhar</a>
+              <a href="smputri.html" class="dropdown-item">SMP Putri Al-azhar</a>
+              <a href="smkputri.html" class="dropdown-item">SMK Putri Al-azhar</a>
+              <a href="#" class="dropdown-item">STAI Al-azhar</a>
+              <a href="#" class="dropdown-item">Madin Sunniyah Salafiyah</a>
+            </div>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="syarat3.html" class="nav-link">Syarat Pendaftaran</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="biaya2.html" class="nav-link">Biaya</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a href="FAQ.html" class="nav-link">FAQ</a>
+          </li>
+        </ul>
+        <!-- mobile version -->
+        <form class="form-inline d-sm-block d-md-none">
+          <button class="btn btn-login my-2 my-sm-0 ">DAFTAR</button>
+        </form>
+        <!-- desktop version -->
+        <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">DAFTAR</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- header -->
+  <header class="text-center">
+    <h1>
+      Penerimaan Santri dan Murid Baru Suniyah Salafiyah<br>
+      Tahun Ajaran 2022-2023
+    </h1>
+    <a href="#" class="btn btn-get-started px-4 mt-4">Pengumuman</a>
+  </header>
+  <!-- main -->
+  <main>
+    <section class="section-popular" id="popular">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center section-popular-heading">
+            <h2>Alur Pendaftaran Online</h2>
+            <p>
+              Panitia Menyediakan akses formulir pendaftaran yang dapat di akses dimanapun dan kapanpun
+              <br>
+              untuk saat ini panitian tidak melayani pendaftaran dikantor ,pendaftaran hanya dilayani
+              secara online(Daring)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-popular-content" id="PopularContent">
+      <div class="container">
+        <div class="section-popular-travel row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column"
+              style="background-image:url(frontend/images/isi.jpg);">
+              <div class="travel-country">Langkah Ke-1</div>
+              <div class="travel-location">Isi Formulir</div>
+              <div class="travel-button mt-auto">
+                <a href="" class="btn btn-travel-details px-4">formulir pendaftaran</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column"
+              style="background-image:url(frontend/images/berkas.jpg);">
+              <div class="travel-country">Langkah Ke-2</div>
+              <div class="travel-location">Lengkapi Berkas</div>
+              <div class="travel-button mt-auto">
+                <a href="" class="btn btn-travel-details px-4">view details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column"
+              style="background-image:url(frontend/images/bayar.jpg);">
+              <div class="travel-country">Langkah Ke-3</div>
+              <div class="travel-location">Pelunasan Biaya</div>
+              <div class="travel-button mt-auto">
+                <a href="" class="btn btn-travel-details px-4">view details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column"
+              style="background-image:url(frontend/images/reg.jpg);">
+              <div class="travel-country">Langkah Ke-4</div>
+              <div class="travel-location">Simpan Registrasi</div>
+              <div class="travel-button mt-auto">
+                <a href="" class="btn btn-travel-details px-4">view details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="section-footer m-1 ">
+      <div class="container p-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+
+            <p>sasasa</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+  <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+
+</html>
